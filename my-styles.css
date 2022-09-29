@@ -1,0 +1,28 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Source Serif Pro', serif;*/
+
+body {
+  width: 800px;
+  margin: auto;
+  background-color: #ccdcc3;
+  font-family: 'Source Serif Pro', serif;
+}
+
+img {
+  max-width: 700px;
+  min-width: 400px;
+}
+
+h1 {
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 3rem; 
+}
+h2{
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 900;
+}
+ul, li {
+  list-style-type: none;
+}
