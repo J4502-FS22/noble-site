@@ -1,11 +1,25 @@
 /* font-family: 'Lato', sans-serif;
-font-family: 'Source Serif Pro', serif;*/
+font-family: 'Source Serif Pro', serif;  'EB Garamond', serif;*/
+
+html{
+font-size: 20px;
+}
 
 body {
   width: 800px;
   margin: auto;
   background-color: #ccdcc3;
   font-family: 'Source Serif Pro', serif;
+}
+
+nav{
+  color: #E3AD16;
+  background-color: #FFFFFF;
+  display: block;
+}
+
+nav a {
+  color: #000000;
 }
 
 img {
@@ -16,13 +30,30 @@ img {
 h1 {
   font-family: Lato, sans-serif;
   font-weight: 600;
-  font-style: italic;
-  font-size: 3rem; 
+  font-size: 2rem;
 }
+
 h2{
   font-family: 'Source Serif Pro', serif;
-  font-weight: 900;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 1.45rem;
 }
+
+h3{
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+
 ul, li {
   list-style-type: none;
+  font-family: 'Garamond', serif;
+}
+
+a {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
 }
