@@ -6,18 +6,18 @@ font-size: 20px;
 }
 
 body {
-  width: 800px;
-  margin: 10px;
+  margin: 0px;
   background-color: #ccdcc3;
   font-family: 'Source Serif Pro', serif;
+  align: center;
 }
 
 main {
-  width: 85%;
-  max-width: 750px;
+  width: 90%;
+  max-width: 1000px;
   background: #FFF;
-  border-radius: 0.75rem;
-  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
   box-sizing: border-box;
   margin: 1rem auto;
 }
@@ -25,7 +25,11 @@ main {
 nav{
   color: #E3AD16;
   background-color: #FFFFFF;
+  padding: 0;
   display: block;
+  margin: 0;
+  border-bottom: 3px solid #FFF;
+
 }
 
 nav a {
@@ -59,7 +63,9 @@ h3{
 
 ul, li {
   list-style-type: none;
-  font-family: 'Garamond', serif;
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 a {
