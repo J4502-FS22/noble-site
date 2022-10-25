@@ -7,9 +7,19 @@ font-size: 20px;
 
 body {
   width: 800px;
-  margin: auto;
+  margin: 10px;
   background-color: #ccdcc3;
   font-family: 'Source Serif Pro', serif;
+}
+
+main {
+  width: 85%;
+  max-width: 750px;
+  background: #FFF;
+  border-radius: 0.75rem;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
 }
 
 nav{
