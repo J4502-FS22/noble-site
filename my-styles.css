@@ -9,7 +9,6 @@ body {
   margin: 0px;
   background-color: #ccdcc3;
   font-family: 'Source Serif Pro', serif;
-  align: center;
 }
 
 main {
@@ -28,7 +27,7 @@ nav{
   padding: 0;
   display: block;
   margin: 0;
-  border-bottom: 3px solid #FFF;
+  border-bottom: 3px solid #000;
 
 }
 
