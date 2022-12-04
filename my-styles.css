@@ -137,7 +137,20 @@ address {
   max-width: 250px;
   margin: 0 auto;
 }
-/*When the browser is at least 555px wide*/
+
+/*figure and .gallery-image styles*/
+
+.gallery-image {
+  margine-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end:0;
+}
+
+.gallery-image img{
+  width: 100%;
+}
+/*When the browser is at least 600px wide*/
 @media (min-width: 600px) {
 
 
@@ -183,4 +196,10 @@ address {
   nav li {
     width: 25%;
   }
+}
+/*width specifically for one image*/
+
+img.autumn-bowls/ingredients.jpeg {
+  height: 200px;
+  width: auto;
 }
