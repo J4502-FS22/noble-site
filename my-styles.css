@@ -40,6 +40,12 @@ main {
   margin: 1rem auto;
 }
 
+.headshot {
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
 /*beginning updated nav and ul, ol*/
 
 nav{
