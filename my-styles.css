@@ -1,6 +1,16 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Source Serif Pro', serif;  'EB Garamond', serif;*/
 
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
 html{
 font-size: 20px;
 }
