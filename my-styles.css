@@ -4,7 +4,7 @@ font-family: 'Source Serif Pro', serif;  'EB Garamond', serif;*/
 .skip-link {
   position: absolute;
   width: 1px;
-  height 1px;
+  height: 1px;
   padding: 0;
   margin: -1px;
   overflow: hidden;
@@ -160,7 +160,7 @@ address {
 /*figure and .gallery-image styles*/
 
 .gallery-image {
-  margine-block-start: 0;
+  margin-block-start: 0;
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end:0;
