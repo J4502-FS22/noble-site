@@ -11,6 +11,15 @@ font-family: 'Source Serif Pro', serif;  'EB Garamond', serif;*/
   border: 0;
 }
 
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem; 
+}
+
 html{
 font-size: 20px;
 }
